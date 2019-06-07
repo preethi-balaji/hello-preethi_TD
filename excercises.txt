@@ -1,0 +1,24 @@
+docker run --rm -u root -p 8089:8089 -p 8080:8080 -v jenkins-data:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -v C:\\"%HOMEPATH%"\devopstraining:/home veritycorp/devops
+
+
+
+
+
+BEFORE
+BROKEN - Legacy code , dependencies
+time consuming - understant changes
+waste - the dev code is not on top of master release
+
+During
+BROKEN - config, installation, dependencies not valid
+time consuming - understand changes, new updates, sw/hw upgrades
+waste - trouble shoot envt issues
+
+after
+BROKEN - QA, dev and prod out of sync
+time consuming - QA changes , preprod bld not works
+waste - monitoring/feedback , sync with all versions
+
+  
+  Book -  PROGIT
+ 
